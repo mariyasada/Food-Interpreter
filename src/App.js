@@ -35,7 +35,7 @@ export default function App() {
     if (inputfood in foodDictionary) {
       setMeaning(foodDictionary[inputfood]);
     } else {
-      setMeaning("Food is not present in databse");
+      setMeaning("Food is not present in database");
     }
   }
   function foodclickHandler(inputfood) {
